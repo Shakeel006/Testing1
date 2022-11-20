@@ -23,6 +23,7 @@ if(browser.equals("chrome")) {
 }
 WebElement txtuser = driver.findElement(By.id("username"));
 txtuser.sendKeys("Shakeels");
+System.out.println(txtuser);
 WebElement txtpass = driver.findElement(By.id("password"));
 txtpass.sendKeys("Ahmedsha006@");
 txtpass.getText();
